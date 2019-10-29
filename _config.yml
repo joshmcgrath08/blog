@@ -22,7 +22,7 @@
 lsi: false
 safe: true
 url: https://joshmcgrath08.blog.github.io
-baseurl: ""
+baseurl: /blog
 repository: joshmcgrath08/joshmcgrath08.blog.github.io
 incremental: false
 highlighter: rouge
