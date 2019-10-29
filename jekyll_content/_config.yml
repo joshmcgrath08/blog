@@ -18,6 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Github config
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 title: Josh McGrath (Blog)
 # email: your-email@example.com
 description: >-
@@ -32,6 +44,7 @@ linkedin_username: josh-mcgrath-15719a64
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo
 
 # google_analytics: true
 show_excerpts: true
