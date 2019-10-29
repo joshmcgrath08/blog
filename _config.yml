@@ -21,7 +21,9 @@
 # Github config
 lsi: false
 safe: true
-source: .
+url: https://joshmcgrath08.blog.github.io
+baseurl: ""
+repository: joshmcgrath08/joshmcgrath08.blog.github.io
 incremental: false
 highlighter: rouge
 gist:
@@ -34,8 +36,6 @@ title: Josh McGrath (Blog)
 # email: your-email@example.com
 description: >-
   Blog posts about Software Engineering and Technical Interviews
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  joshmcgrath08
 linkedin_username: josh-mcgrath-15719a64
