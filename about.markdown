@@ -23,7 +23,7 @@ quickly through iterative approaches rather than trying to build working solutio
 first principles.
 
 And while it's easy to just focus on the coding and technical aspects of software
-engineering, at it's heart it's a collaborative, human effort. For this reason,
+engineering, at its heart it's a collaborative, human effort. For this reason,
 and from seeing the effects of interviewing done well and poorly, respectively,
 I've come to care deeply about and invest a lot of time in thinking about and
 practicing interviewing skills.
