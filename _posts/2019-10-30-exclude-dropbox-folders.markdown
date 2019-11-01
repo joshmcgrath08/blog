@@ -5,6 +5,8 @@ tags: dropbox ubuntu linux bash shell
 comments: true
 ---
 
+{% include license.html %}
+
 While I was setting up a laptop with [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) for development, Dropbox was consuming 100% of a CPU core and devouring battery each time I created a new Python virtual environment with [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/). While not the end of the world, it was annoying and seemed like an easy enough problem to solve. The issue was that Dropbox was trying to sync a bunch of generated directories.
 
 Dropbox offers a feature called [Selective Sync](https://help.dropbox.com/installs-integrations/sync-uploads/selective-sync-overview), but this requires more manual intervention than I was hoping for. There were also a [few](https://superuser.com/questions/853236/how-to-make-dropbox-ignore-specific-folders-in-the-sync) _  [similar](https://www.dropboxforum.com/t5/Dropbox/Ignore-folder-without-selective-sync/idi-p/5926) _  [questions](https://medium.com/@sherwino/how-do-you-ignore-specific-folders-like-node-modules-recursively-on-dropbox-c74ba9f2abce) and a [handful](https://arshaw.com/exclude-node-modules-dropbox-google-drive) _ 
