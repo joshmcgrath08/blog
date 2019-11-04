@@ -46,7 +46,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo
 
-# google_analytics: true
+google_analytics: UA-151420972-1
 show_excerpts: true
 
 # Exclude from processing.
